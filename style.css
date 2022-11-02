@@ -11,7 +11,7 @@ body {
   align-items: center;
   font-family: "Roboto", sans-serif;
   height: 100vh;
-  background-image: url("/library.jpeg");
+  background-image: url(library.jpeg);
 }
 
 .conteiner {
@@ -39,9 +39,12 @@ body {
   border: none;
   border-radius: 8px;
   width: 500px;
+  height: 300px;
   padding: 32px;
   background-color: #fff;
   opacity: 0.98;
+  box-shadow: 0 0 10px;
+  position: relative;
 }
 
 .text {
@@ -49,11 +52,12 @@ body {
   font-size: 24px;
   font-weight: 100;
   margin-bottom: 18px;
+  line-height: 1.5;
 }
 
 .author {
   text-align: center;
-  font-size: 24px;
+  font-size: 26spx;
   font-weight: 100;
   margin-bottom: 18px;
 }
@@ -64,4 +68,13 @@ body {
   border-radius: 4px;
   font-size: 100;
   padding: 6px;
+  cursor: pointer;
+  position: absolute;
+  top: 240px;
+  left: 210px;
+}
+
+.btn:active {
+  background-color: aqua;
+  color: #000;
 }
